@@ -2,6 +2,8 @@ import express from 'express'
 import expressLayouts from 'express-ejs-layouts'
 import path from 'path'
 import { fileURLToPath } from 'url'
+// Importar rutas
+import multimediaRoutes from './routes/multimedia.js'
 
 const app = express()
 
@@ -30,6 +32,7 @@ app.use('vendor/bootstrap-icons/css/', express.static(path.join(__dirname, 'node
 app.get('/', (req, res) => {
   res.render('index', { title: 'Inicio' })
 })
+app.use('/multimedia', multimediaRoutes);
 
 // Iniciar el servidor
 app.listen(3000, (error) => {
