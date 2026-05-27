@@ -1,0 +1,32 @@
+{
+  "name": "multimedia-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "npx nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rodrigo240397/multimedia-express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Rodrigo240397/multimedia-express/issues"
+  },
+  "homepage": "https://github.com/Rodrigo240397/multimedia-express#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "bootstrap-icons": "^1.13.1",
+    "ejs": "^6.0.1",
+    "express": "^5.2.1",
+    "express-ejs-layouts": "^2.5.1",
+    "multer": "^2.1.1",
+    "mysql2": "^3.22.4",
+    "nodemon": "^3.1.14"
+  }
+}
